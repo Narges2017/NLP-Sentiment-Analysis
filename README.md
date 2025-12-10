@@ -89,3 +89,46 @@ NLP_Sentiment_Analysis/
 ├── LICENSE # MIT License
 ├── README.md # This file
 └── requirements.txt # Python dependencies
+
+
+## How to run
+
+1. **Clone this repository**:
+
+2. **Install dependencies**:
+
+3. **Download the dataset**: Follow instructions in `data/README.md` to get `IMDB Dataset.csv` from Kaggle and place it in `data/`.
+
+4. **Run the notebook**:
+
+5. **Execute all cells** to reproduce preprocessing, EDA, modeling, and evaluation.
+
+## Results summary
+
+| Metric | Value |
+|--------|-------|
+| Test Accuracy | 88.79% |
+| Precision (Positive) | 0.88 |
+| Recall (Positive) | 0.90 |
+| F1-score (Positive) | 0.89 |
+| Precision (Negative) | 0.90 |
+| Recall (Negative) | 0.88 |
+| F1-score (Negative) | 0.89 |
+
+## Future improvements
+
+- **Advanced models**: Try BERT, RoBERTa, or DistilBERT for potentially higher accuracy
+- **Hyperparameter tuning**: Grid search or Bayesian optimization for TF-IDF and LogisticRegression parameters
+- **Multi-class sentiment**: Extend to 3-class (positive/neutral/negative) or 5-star ratings
+- **Aspect-based sentiment**: Identify sentiment about specific movie aspects (acting, plot, cinematography)
+- **Deployment**: Build a Flask/Streamlit web app where users can input custom reviews and get real-time sentiment predictions
+
+## Author
+
+Narges  
+[GitHub](https://github.com/Narges2017) 
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
